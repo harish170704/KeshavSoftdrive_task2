@@ -1,0 +1,99 @@
+{% extends "base.njk" %}
+
+{% block title %}About Us - KeshavSoftdrive{% endblock %}
+
+{% block navbar %}
+{% include "navbar.njk" %}
+{% endblock %}
+
+{% block content %}
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">About Us</h2>
+    <p class="lead text-center">We are a team of passionate developers committed to delivering high-quality web solutions.</p>
+
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <h4>Our Mission</h4>
+        <p>To provide clean, responsive, and modern web designs that meet our clients’ needs.</p>
+      </div>
+      <div class="col-md-6">
+        <h4>Our Vision</h4>
+        <p>To become a trusted name in web development by creating user-friendly and visually appealing websites.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Components Section -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="mb-4 text-center">Our Key Components</h2>
+    <div class="row text-center">
+
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Navbar</h5>
+            <p class="card-text">Reusable and responsive navigation bars for easy website navigation.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Hero Section</h5>
+            <p class="card-text">Catchy hero sections to highlight your main content or features.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Cards</h5>
+            <p class="card-text">Bootstrap cards for features, services, or any content block.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row text-center mt-4">
+
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Forms</h5>
+            <p class="card-text">Responsive contact or subscription forms with proper validation.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Modals</h5>
+            <p class="card-text">Interactive modals for notifications, login forms, or additional info.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Carousels</h5>
+            <p class="card-text">Beautiful image or content carousels for slideshows.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block footer %}
+{% include "footer.njk" %}
+{% endblock %}

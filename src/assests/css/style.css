@@ -1,0 +1,37 @@
+/* Navbar */
+.navbar {
+  border-radius: 10px;
+}
+.navbar .nav-link:hover {
+  color: #ffc107 !important; /* Hover highlight */
+  transform: translateY(-2px);
+  transition: 0.3s ease;
+}
+
+/* Hero Section */
+header h1 {
+  text-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+header .btn-light:hover {
+  transform: translateY(-3px);
+  transition: 0.3s ease;
+}
+
+/* Cards */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.18);
+}
+
+/* Footer */
+footer i {
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+footer i:hover {
+  color: #ffc107;
+  cursor: pointer;
+}
