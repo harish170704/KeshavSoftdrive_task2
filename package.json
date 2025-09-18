@@ -1,0 +1,21 @@
+{
+  "name": "task2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "nodemon --watch src/templates --ext njk,css,js --exec \"npm run build\"",
+    "serve": "live-server docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "nodemon": "^3.1.10",
+    "nunjucks": "^3.2.4",
+    "vite": "^6.3.6"
+  }
+}
